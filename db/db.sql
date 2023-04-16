@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS films (
+    code TEXT PRIMARY KEY,
+    title TEXT NOT NULL,
+    about TEXT NOT NULL
+);
